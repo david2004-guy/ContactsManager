@@ -8,7 +8,7 @@ public class App {
         Contact Contact1 = new Contact();
         Contact1.name = "Alice";
         Contact1.phoneNumber = "0700000001";
-        myContactMsanager.addContact(Contact1);
+        myContactsManager.addContact(Contact1);
 
         // Contact 2
         Contact Contact2 = new Contact();
