@@ -29,7 +29,7 @@ public class App {
         myContactsManager.addContact(Contact4);
 
         // Contact 5
-        Contact Contact5 = new contact();
+        Contact Contact5 = new Contact();
         Contact5.name = "Emma";
         Contact5.phoneNumber = "0700000005";
         myContactsManager.addContact(Contact5);
