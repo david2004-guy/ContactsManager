@@ -2,40 +2,40 @@ public class App {
     public static void main(String[] args) {
 
         // Création du gestionnaire
-        contactmanager mycontactmanager = new contactmanager();
+        ContactsManager myContactsManager = new ContactsManager();
 
         // Contact 1
-        contact contact1 = new contact();
-        contact1.name = "Alice";
-        contact1.phoneNumber = "0700000001";
-        mycontactmanager.addContact(contact1);
+        Contact Contact1 = new Contact();
+        Contact1.name = "Alice";
+        Contact1.phoneNumber = "0700000001";
+        myContactMsanager.addContact(Contact1);
 
         // Contact 2
-        contact contact2 = new contact();
-        contact2.name = "Bob";
-        contact2.phoneNumber = "0700000002";
-        mycontactmanager.addContact(contact2);
+        Contact Contact2 = new Contact();
+        Contact2.name = "Bob";
+        Contact2.phoneNumber = "0700000002";
+        myContactsManager.addContact(Contact2);
 
         // Contact 3
-        contact contact3 = new contact();
-        contact3.name = "Charlie";
-        contact3.phoneNumber = "0700000003";
-        mycontactmanager.addContact(contact3);
+        Contact Contact3 = new Contact();
+        Contact3.name = "Charlie";
+        Contact3.phoneNumber = "0700000003";
+        myContactsManager.addContact(Contact3);
 
         // Contact 4
-        contact contact4 = new contact();
-        contact4.name = "David";
-        contact4.phoneNumber = "0700000004";
-        mycontactmanager.addContact(contact4);
+        Contact Contact4 = new Contact();
+        Contact4.name = "David";
+        Contact4.phoneNumber = "0700000004";
+        myContactsManager.addContact(Contact4);
 
         // Contact 5
-        contact contact5 = new contact();
-        contact5.name = "Emma";
-        contact5.phoneNumber = "0700000005";
-        mycontactmanager.addContact(contact5);
+        Contact Contact5 = new contact();
+        Contact5.name = "Emma";
+        Contact5.phoneNumber = "0700000005";
+        myContactsManager.addContact(Contact5);
 
         // Recherche d’un contact
-        contact result = mycontactmanager.searchContact("David");
+        Contact result = myContactsManager.searchContact("David");
 
         if (result != null) {
             System.out.println("Numéro de David : " + result.phoneNumber);
